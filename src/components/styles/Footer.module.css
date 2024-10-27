@@ -1,0 +1,66 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+    padding: 5rem 10rem;
+    font-family: "Montserrat SemiBold";
+    border-top: 1px solid var(--text_color1);
+}
+.footer_intro{
+    width: 25%;
+    margin-bottom: 5rem;
+}
+.footer_intro h2{
+    font-family: "Montserrat Bold";
+    margin-top: 0;
+    margin-bottom: 5rem;
+    padding-top: 0;
+}
+.footer_intro p{
+    color: var(--text_color2);
+    opacity: 0.9;
+}
+a{
+    color: var(--text_color1);
+}
+li{
+    margin: 3rem auto;
+}
+.first{
+    margin-bottom: 4rem;
+}
+.first a{
+    color: var(--text_color2);
+}
+.links{
+
+}
+.styles{
+
+}
+.help{
+
+}
+.newsletter{
+    align-self: flex-start;
+}
+.newsletter h4{
+    color: var(--text_color2);
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+.newsletter div input, button{
+    border: none;
+    border-bottom: 2px solid var(--text_color1);
+    padding: 1rem;
+    padding-left: 0;
+}
+.newsletter div input{
+    margin-right: 2rem;
+    width: 25rem;
+    outline: none;
+}
+.newsletter div button{
+    background: none;
+}

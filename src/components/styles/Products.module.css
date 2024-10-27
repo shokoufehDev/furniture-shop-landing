@@ -1,0 +1,34 @@
+.products_section{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.products_section h2{
+    text-align: center;
+    font-family: "Montserrat Bold";
+    letter-spacing: 0.5rem;
+    margin: 3rem auto;
+}
+.products_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+
+}
+.products_section button{
+    border: 2px solid var(--dark_yellow);
+    font-family: "Montserrat Bold";
+    color: var(--dark_yellow);
+    background-color: #fff;
+    display: block;
+    margin: 5rem auto;
+    padding: 1rem 6rem;
+    transition: all 500ms ease-in-out;
+}
+.products_section button:hover{
+    transform: scale(1.05);
+    letter-spacing: 0.2rem;
+}

@@ -1,0 +1,37 @@
+.header{
+    font-family: "Montserrat SemiBold";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    width: 16rem;
+    height: 7rem;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4rem;
+
+}
+.nav_list li {
+     padding: 0 4rem;
+}
+
+.nav_list a{
+    color: #1F1F1F;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icons svg{
+    margin: 0 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}

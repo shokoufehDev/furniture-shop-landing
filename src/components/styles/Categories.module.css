@@ -1,0 +1,36 @@
+@import '/src/global.css';
+
+.categories{
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+.categories h3{
+    font-family: "Montserrat Bold";
+    margin-bottom: 0;
+}
+.categories p{
+    color: var(--text_color2);
+}
+.categories_box{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 5rem;
+}
+.categories_box div{
+    width: 30rem;
+    height: 40rem;
+    margin: auto 0.8rem;
+}
+.categories_box img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+.categories_box div span{
+    font-family: "Montserrat SemiBold";
+}
